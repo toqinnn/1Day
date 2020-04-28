@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+
+    android:layout_height="900dp">
 
 
 
@@ -11,8 +13,8 @@
 
         android:id="@+id/lin"
         android:layout_width="450dp"
-        android:layout_height="800dp"
-        android:background="@drawable/back"
+        android:layout_height="900dp"
+        android:background="@drawable/arka"
         android:orientation="vertical"
         >
 
@@ -28,26 +30,90 @@
 
         <LinearLayout
             android:id="@+id/lmbtn"
-            android:layout_width="110dp"
-            android:background="@drawable/white"
-            android:layout_height="110dp"
-            android:layout_marginStart="250dp"
-            android:layout_marginTop="100dp"
-            android:translationX="165dp">
+            android:layout_width="match_parent"
+
+            android:layout_height="130dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="30dp"
+            android:translationX="385dp"
+            >
 
             <Button
                 android:id="@+id/mbtn"
-                android:layout_width="107dp"
-                android:layout_height="108dp"
-                android:background="@drawable/a"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/group"
                 android:clickable="false"
+                android:text="Әр күніңді әсемде"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textColorHighlight="#00D6B7B7"
+                android:textSize="18sp"
+                android:textStyle="bold"
                 android:visibility="visible" />
 
         </LinearLayout>
 
+        <LinearLayout
+            android:id="@+id/lmbtn2"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginStart="10dp"
+            android:translationX="-415dp"
+            >
+
+            <Button
+                android:id="@+id/mbtn2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/group1"
+                android:clickable="false"
+                android:text="Сүйікті жазбалар"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lmbtn3"
+            android:layout_width="match_parent"
+
+            android:layout_height="130dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginStart="10dp"
+            android:translationX="380dp"
+
+            >
+
+            <Button
+                android:id="@+id/mbtn3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/group2"
+                android:clickable="false"
+                android:text="Параметрлер"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+        </LinearLayout>
+        <com.google.android.gms.ads.AdView
+            android:layout_gravity="center"
+            android:id="@+id/ad_anasayfa"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_ad_unit_id">
+
+        </com.google.android.gms.ads.AdView>
+
 
 
     </LinearLayout>
+
 
 
 </LinearLayout>

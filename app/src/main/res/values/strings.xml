@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">birayathadisdua</string>
+    <string name="banner_ad_unit_id">"ca-app-pub-8111598628620916/3289698812"</string>
+    <string name="app_unit_id">"ca-app-pub-8111598628620916~2669863663"</string>
+    <string name="Ayat">"Аят"</string>
+    <string name="Dua">"Дұға"</string>
+    <string name="hadis">"Хадис"</string>
+    <string name="source">"source"</string>
+    <string name="ayatt">"«(Ей, Мұхаммед) айт! Білетіндер мен білмейтіндер тең бе?»"</string>
+    <string name="ayattt">"(Зүмәр сүресі, 9)"</string>
+
+
+
+
+
 </resources>

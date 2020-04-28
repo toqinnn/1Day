@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/ln_settings"
+    android:layout_width="match_parent"
+    android:background="@drawable/a"
+    android:layout_height="match_parent"
+    android:translationX="-415dp"
+
+    >
+
+    <ImageView
+
+        android:id="@+id/btn_settings_back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/back_btn"
+        android:clickable="true"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="50dp"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="30dp"
+                    android:orientation="vertical">
+                    <TextView android:textSize="25dp"
+                        android:textColor="#FFFFFF"
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:text=""
+                        />
+
+                    <TextView
+                        android:id="@+id/et_habarlandru_uahyty"
+                        android:layout_width="300dp"
+                        android:layout_height="150dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginRight="8dp"
+                        android:background="@drawable/cir"
+                        android:gravity="center"
+                        android:text="11:00"
+                        android:textColor="#303030"
+                        android:textSize="25dp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/btn_saat_degis"
+                        android:layout_width="420dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-20dp"
+                        android:background="@drawable/alarm"
+                        android:text="Уақытты өзгерту"
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+
+                    <Button android:textSize="25dp"
+                        android:textColor="#000000"
+                        android:id="@+id/btn_habarlandru_kuii"
+                        android:background="@drawable/bgg"
+                        android:padding="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_width="420dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-30dp"
+                        android:text="Ашык"
+
+                        android:drawablePadding="18dp"/>
+                    <Button android:textSize="21dp"
+                        android:textColor="#000000"
+                        android:id="@+id/btn_ayarlar_uygpaylas"
+                        android:padding="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_width="420dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-30dp"
+                        android:background="@drawable/share"
+                        android:text="Апликейшн бөлісіңіз"
+                        android:drawablePadding="7dp"/>
+
+
+
+                </LinearLayout>
+
+
+            </ScrollView>
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_gravity="bottom"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+
+           <com.google.android.gms.ads.AdView
+               android:layout_gravity="center"
+               android:id="@+id/adview"
+               android:layout_width="wrap_content"
+               android:layout_height="50dp"
+               ads:adSize="BANNER"
+               ads:adUnitId="@string/banner_ad_unit_id">           >
+
+           </com.google.android.gms.ads.AdView>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
