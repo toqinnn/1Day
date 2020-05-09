@@ -9,19 +9,26 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-
         <ViewStub
             android:id="@+id/vs_home"
-
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout="@layout/fr_home" />
         <ViewStub
             android:id="@+id/vs_kun"
-
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout="@layout/fr_kun" />
+        <ViewStub
+            android:id="@+id/vs_favori"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout="@layout/fr_favori" />
+        <ViewStub
+            android:id="@+id/vs_settings"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout="@layout/fr_settings" />
     </FrameLayout>
 
 

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "947322594700",
+    "firebase_url": "https://birayathadisdua.firebaseio.com",
+    "project_id": "birayathadisdua",
+    "storage_bucket": "birayathadisdua.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:947322594700:android:db734822f5f9e527c422a9",
+        "android_client_info": {
+          "package_name": "com.nurlanbyektolkhyn.birayathadisdua"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "947322594700-v0cgetib00p1jl89bec4bg235i00kefr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nurlanbyektolkhyn.birayathadisdua",
+            "certificate_hash": "cbefb9744659bd68c0de311ca31f06d738491232"
+          }
+        },
+        {
+          "client_id": "947322594700-je3e4oeo232kiqe8l3703h3dvt6dtvro.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9nBLzfztp6YAlI71NSkfrUDVkRxRt_wU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "947322594700-je3e4oeo232kiqe8l3703h3dvt6dtvro.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
